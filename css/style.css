@@ -1,0 +1,24 @@
+*{margin: 0;padding: 0;}
+.container{width: 1000px;margin: 0 auto;border: 1px solid #000;}
+.container .page-left{width: 35%;height: 1480px;border: 1px solid #000;float: left;}
+.container .page-right{width: 63%;height: 1480px;border: 1px solid #000;float: right;}
+
+.page-left .wrap{background-color: #e0e0e0;position: relative;}
+.page-left .wrap .my-photo{width: 100%;text-align: center;position: relative;top: 60px;margin-bottom: 90px;}
+.page-left .wrap .my-photo .phone-layer{max-width: 200px;border-radius: 20px;display: inline-block;padding: 10px;border-radius: 50%;border:2px solid #000;}
+.page-left .wrap .my-photo a img{max-width: 200px;}
+img.img-circle {border-radius: 50%;}
+.page-left .wrap .my-position{width: 103%;background-color: #000;position: relative;margin-bottom: 35px;}
+.page-left .wrap .my-position .my-name{color: #fff;text-align: center;padding-bottom: 50px;}
+.page-left .wrap .my-position .my-name h1{padding: 20px 0 12px;}
+.page-left .wrap .my-panel{}
+.page-left .wrap .my-panel h2{}
+#triangle-up {
+	position: absolute;
+	right: 0px;
+	bottom: -5px;
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-top: 5px solid #cecece;
+}
